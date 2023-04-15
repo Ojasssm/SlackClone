@@ -1,0 +1,52 @@
+.sec7{
+    border-top: 2px solid rgba(117, 116, 116, 0.183);
+    height: 9vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.s7part1{
+    height: 4.7vw;
+    display: flex;
+    justify-content: space-between;
+}
+.s7p1part1{
+    /* border: 1px solid blue; */
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+.s7p1part1 span{
+    margin: 0 0.5vw;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2857;
+    letter-spacing: normal;
+    font-size: .875rem;
+    color: #000;
+}
+.s7p1part1 span a{
+    text-decoration: none;
+    color: black;
+}
+.s7p1part1 span a:hover{
+    text-decoration: none;
+    color: rgb(6, 6, 145);
+}
+.s7p1part2{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+}
+.s7p1part2 img{
+    margin: 0 0.5vw;
+}
+
+
+
+
+
+.s7part2 p{
+    margin-top: 0.7vw;
+    font-size: 0.85rem;
+}

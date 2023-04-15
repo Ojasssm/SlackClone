@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #541554;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 90px;
+    padding: 0 20px;
+    color: white;
+}
+
+/* @@@ Logo Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+.navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-left: 7.5vw;
+}
+
+.navbar-logo img {
+    height: 2.5vw;
+}
+
+.navbar-logo span{
+    margin-left: 8px;
+    font-size: 24px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 1.8vw;
+}
+
+/* @@@ Navbar sections ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar-links {
+    display: flex;
+    list-style: none;
+    /* border: 2px solid black; */
+    margin-left: 2.5vw;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+.navbar-links li {
+    margin-left: 10px;
+}
+
+.navbar-links li:first-child {
+    margin-left: 0;
+}
+
+.navbar-links a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.7vw;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 0.95vw;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    color: #007bff;
+}
+
+
+/* @@@ Navbar sign in ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+.mid-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12vw;
+}
+.mid-navbar img{
+    height: 1.6vw;
+    width: 1.6vw;
+    margin-right: 2.5vw;
+}
+.mid-navbar span{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 0.95vw;
+    cursor: pointer;
+}
+
+
+/* @@@ Navbar Buttons ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+    margin-left: 2.5vw;
+}
+
+.button-primary {
+    color: #fff;
+    background-color: #541554;
+    border: 1px solid white;
+    height: 2.6vw;
+    width: 9vw;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.button-primary:hover {
+    border: 2px solid white;
+}
+
+.button-secondary {
+    background-color: white;
+    color: #541554;
+    border: none;
+    height: 2.6vw;
+    width: 9vw;
+    border-radius: 4px;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+}
+
+.button-secondary:hover {
+    border: 2px solid #541554;
+}
+

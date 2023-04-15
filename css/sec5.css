@@ -1,0 +1,56 @@
+.sec5{
+    border: 1px solid #4a154b;
+    height: 18vw;
+    background-color: #4a154b;
+}
+
+.sec5img{
+    width: 100vw;
+}
+
+.sec5 h1{
+    color: #fff!important;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;    
+    font-weight: 700;
+    line-height: 1.1875;
+    letter-spacing: 0.8px;
+    margin-top: 6vw;
+    font-size: 2.8vw;
+    margin-bottom: 1rem;
+    letter-spacing: normal;
+    margin-bottom: 1rem;
+    margin-left: 26vw;
+}
+.sec5buttons{
+    /* border: 2px solid black; */
+    height: 4.2vw;
+    width: fit-content;
+    margin-left: 35vw;
+    margin-top: 2.2vw;
+}
+.s5btn1{
+    color: #541554;
+    background-color: white;
+    height: 3.7vw;
+    width: 12vw;
+    border-radius: 5px;
+    border: none;
+    margin-right: 7px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.s5btn2{
+    color: white;
+    background-color: #541554;
+    border: 2px solid white;
+    height: 3.7vw;
+    width: 12vw;
+    border-radius: 5px;
+    margin-right: 7px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-weight: 600;
+    font-size: 0.9em;
+}

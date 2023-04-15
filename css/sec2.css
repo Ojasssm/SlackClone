@@ -1,0 +1,102 @@
+.sec2{
+    border: 1px solid #F4EDE4!important;
+    height: 102vw;
+    background-color: #F4EDE4!important;
+}
+
+/* Heading ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.sec2 h3{
+    margin-top: 3vw;
+    margin-left: 36vw;
+}
+/* Image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.sec2 img{
+    height: 6.5vw;
+    margin-left: 18vw;
+    margin-top: 1vw;
+}
+/* Box-1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.s2box1{
+    /* border: 2px solid black; */
+    height: 22.7vw;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+    display: flex;
+}
+.s2box1-vid video{
+    height: 22.7vw;
+}
+.s2box1-cont{
+    /* border: 2px solid red; */
+    height: 22.5vw;
+    width: 30vw;
+    margin-left: 9vw;
+}
+/* Box-2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.s2box2{
+    /* border: 2px solid black; */
+    height: 22.7vw;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    display: flex;
+}
+.s2box2-vid video{
+    height: 22.7vw;
+}
+.s2box2-cont{
+    /* border: 2px solid red; */
+    height: 22.5vw;
+    width: 33vw;
+    margin-right: 9vw;
+}
+/* Box-3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.s2box3{
+    /* border: 2px solid black; */
+    height: 22.7vw;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
+    margin-top: 8vw;
+    /* margin-bottom: 3.5vw; */
+    display: flex;
+}
+.s2box3-vid video{
+    height: 22.7vw;
+}
+.s2box3-cont{
+    /* border: 2px solid red; */
+    height: 22.5vw;
+    width: 34vw;
+    margin-left: 7vw;
+}
+/* All Boxes Content ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.bb h1{
+    font-size: 3vw;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin-top: 2vw;
+}
+.bb p{
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 540;
+    line-height: 1.4444;
+    letter-spacing: -.2px;
+    font-size: 1.115rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.bb a{
+    text-decoration: none;
+    color: #1264a3;
+    cursor: pointer;
+    word-break: break-word;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.4444;
+    letter-spacing: normal;
+    font-size: 1.125rem;
+    display: inline-block;
+    margin-bottom: 0;
+    /* border-bottom: 1px solid #1264a3; */
+    position: relative;
+}

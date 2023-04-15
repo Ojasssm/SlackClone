@@ -1,0 +1,42 @@
+.sec6{
+    /* border: 2px solid green; */
+    height: 26.5vw;
+    display: flex;
+}
+
+
+.sec6 img{
+    height: 4vw;
+    margin-top: 3.2vw;
+    margin-left: 9.5vw;
+}
+.s6boxes{
+    /* border: 2px solid black; */
+    height: 24vw;
+    margin-top: 3.5vw;
+    margin-left: 7vw;
+    display: flex;
+}
+.s6box{
+    /* border: 1px solid red; */
+    height: 24vw;
+    width: 9vw;
+    margin: 0 2vw;
+}
+
+.s6box h3{
+    font-size: 1vw;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;;
+}
+.s6box a{
+    text-decoration: none;
+    color: black;
+}
+.s6box a:hover{
+    color: rgb(3, 3, 129);
+}
+.s6box p{
+    margin: 1.5vw 0;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;;
+    font-size: 0.9em;
+}

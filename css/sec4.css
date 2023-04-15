@@ -1,0 +1,21 @@
+.sec4{
+    /* border: 2px solid green; */
+    height: 40vw;
+    background-color: #F4EDE4!important;
+    padding: 1vw 0;
+}
+
+/* Heading ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.sec4 h1{
+    margin: 2.5vw 30vw;
+}
+.s4boxes{
+    display: flex;
+    width: fit-content;
+    margin-left: 9vw;
+}
+.s4box img{
+    height: 28vw;
+    width: 18.5vw;
+    margin: 0 1vw;
+}
